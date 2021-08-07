@@ -44,3 +44,8 @@ Thumbs.db
 # Node
 ######################
 node_modules/
+.env
+
+# GitCommit Messages # 
+######################
+.git-commit-messages
