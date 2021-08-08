@@ -26,17 +26,16 @@ router.get('/registrations', basic.check((req, res) => {
     .catch(() => { res.send('Sorry! Something went wrong.'); });
 }));
 
-router.post('/',
-  [
+router.post('/', [
     check('name')
-      .isLength({ min: 1 })
-      .withMessage('Please enter a name'),
+    .isLength({ min: 1 })
+    .withMessage('Please enter a name'),
     check('email')
-      .isLength({ min: 1 })
-      .withMessage('Please enter an email'),
+    .isLength({ min: 1 })
+    .withMessage('Please enter an email'),
   ],
   (req, res) => {
-    const errors = validationResult(req);
+    const errors = validationResult(req)
 
     if (errors.isEmpty()) {
       const registration = new Registration(req.body);

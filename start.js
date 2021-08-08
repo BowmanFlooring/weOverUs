@@ -14,7 +14,7 @@ mongoose.connection
     console.log('Mongoose connection open');
   })
   .on('error', (err) => {
-    console.log('Connection error: ${err.message}');
+    console.log(new error('Oops! Something went wrong!'));;
   });
 
 require('./models/Registration');

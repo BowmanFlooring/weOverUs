@@ -1,10 +1,33 @@
 {
+    "java.home": "/usr/local/opt/openjdk/bin/java",
+    "vsintellicode.java.completionsEnabled": true,
+    "vsintellicode.typescript.completionsEnabled": true,
     "[javascript]": {
         "editor.acceptSuggestionOnEnter": "off",
-        "editor.fontFamily": "'agave Nerd Font Mono', 'Cascadia Code PL', 'Cascadia Code PL Italic'",
+        "editor.fontFamily": "'agave Nerd Font Mono'",
         "editor.tabSize": 2,
+        "editor.formatOnSave": true,
         "editor.suggest.filterGraceful": true,
         "editor.hover.enabled": true,
-        "editor.inlayHints.enabled": true
-    }
+        "editor.inlayHints.enabled": true,
+        "editor.defaultFormatter": "lonefy.vscode-JS-CSS-HTML-formatter",
+        "editor.hover.delay": 50,
+        "editor.suggest.showSnippets": true,
+        "editor.snippetSuggestions": "bottom",
+        "editor.quickSuggestionsDelay": 0,
+        "editor.fontLigatures": true,
+        "editor.suggest.snippetsPreventQuickSuggestions": false
+    },
+    "[json]": {
+        "editor.quickSuggestions": {
+            "strings": true,
+            "comments": true
+        },
+        "editor.suggest.insertMode": "replace",
+        "workbench.editor.untitled.experimentalLanguageDetection": true,
+        "editor.codeActionsOnSave": {
+            "source.fixAll": true
+        }
+    },
+    "vsicons.presets.jsonOfficial": true
 }
