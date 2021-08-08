@@ -1,0 +1,10 @@
+{
+    "[javascript]": {
+        "editor.acceptSuggestionOnEnter": "off",
+        "editor.fontFamily": "'agave Nerd Font Mono', 'Cascadia Code PL', 'Cascadia Code PL Italic'",
+        "editor.tabSize": 2,
+        "editor.suggest.filterGraceful": true,
+        "editor.hover.enabled": true,
+        "editor.inlayHints.enabled": true
+    }
+}
