@@ -49,4 +49,4 @@ node_modules/
 # GitCommit Messages # 
 ######################
 .git-commit-messages
-.env
+mongodb.js
