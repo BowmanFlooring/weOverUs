@@ -13,6 +13,7 @@
         "com.sun.*",
         "sun.*"
     ],
+    "editor.fontFamily": "Victor Mono",
     "files.enableTrash": true,
     "editor.lightbulb.enabled": true,
     "editor.fontLigatures": true,
@@ -24,7 +25,7 @@
     "editor.renderLineHighlight": "all",
     "editor.scrollbar.horizontalScrollbarSize": 20,
     "terminal.integrated.drawBoldTextInBrightColors": true,
-    "terminal.integrated.fontWeight": "100",
+    "terminal.integrated.fontWeight": "300",
     "terminal.integrated.fontWeightBold": "900",
     "[javascript]": {
         "editor.inlineSuggest.enabled": true,
@@ -34,17 +35,21 @@
             "strings": true
         },
         "editor.acceptSuggestionOnEnter": "off",
+<<<<<<< HEAD
         "editor.fontFamily": "'Victor Mono'",
+=======
+        "editor.fontFamily": "''",
+>>>>>>> da516fbce1d4554920267bf495ed4aedc6afecda
         "editor.tabSize": 2,
         "editor.formatOnSave": true,
         "editor.suggest.filterGraceful": true,
         "editor.hover.enabled": true,
         "editor.inlayHints.enabled": true,
         "editor.defaultFormatter": "VisualStudioExptTeam.vscodeintellicode",
-        "editor.hover.delay": 10,
+        "editor.hover.delay": 300,
         "editor.suggest.showSnippets": true,
         "editor.snippetSuggestions": "bottom",
-        "editor.quickSuggestionsDelay": 0,
+        "editor.quickSuggestionsDelay": 30,
         "editor.fontLigatures": true,
         "editor.suggest.snippetsPreventQuickSuggestions": false,
         "editor.parameterHints.enabled": true,
@@ -92,5 +97,6 @@
         "editor.semanticHighlighting.enabled": true,
         "editor.acceptSuggestionOnEnter": "off",
         "editor.codeLens": true
-    }
+    },
+    "terminal.integrated.fontFamily": "Space Mono"
 }
