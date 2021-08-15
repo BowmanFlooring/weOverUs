@@ -34,7 +34,7 @@
             "strings": true
         },
         "editor.acceptSuggestionOnEnter": "off",
-        "editor.fontFamily": "'VictorMono Nerd Font'",
+        "editor.fontFamily": "'Victor Mono'",
         "editor.tabSize": 2,
         "editor.formatOnSave": true,
         "editor.suggest.filterGraceful": true,
