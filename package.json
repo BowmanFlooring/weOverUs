@@ -21,6 +21,7 @@
     "express": "^4.17.1",
     "express-validator": "^6.12.1",
     "feather-icons": "^4.28.0",
+    "font-awesome": "^4.7.0",
     "http-auth": "^4.1.7",
     "mongoose": "^5.13.5",
     "pug": "^3.0.2"
