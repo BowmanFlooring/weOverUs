@@ -49,10 +49,17 @@ Thumbs.db
 node_modules/
 
 
-# Git-Related Files # 
+#########################################################################
+# As of Aug. 18, '.vscode/' will be IGNORED! We don't always have it     #
+# ignored, but for the betterment of the project, there is no need to    #
+# keep it under source control! If someone wants a copy of this branch's #
+# settings file, please do the following:                                #
+##########################################################################
+
+# Git-Related Files #
 #####################
 .git-commit-messages
-
+.vscode/
 # VS Code Settings #
 ####################
 .vscode/settings.json
