@@ -11,8 +11,9 @@
   "license": "ISC",
   "devDependencies": {
     "cssstyle": "^2.3.0",
+    "es6": "^0.0.7",
     "nodemon": "^2.0.12",
-    "typescript": "^4.3.5"
+    "typescript": "^4.4.0-beta"
   },
   "dependencies": {
     "body-parser": "^1.19.0",
