@@ -14,12 +14,12 @@ mongoose.connection
     console.log('Mongoose connection open');
   })
   .on('error', (err) => {
-    console.log('Oops! Something went wrong!');
+    console.log('err', 'Oops! Something went wrong!');
   });
 
 require('./models/Registration');
 const app = require('./app');
 
 const server = app.listen(3000, () => {
-  console.log('Express is running on port {server.address().port}');
+  console.log('server info:', server.address());
 });
