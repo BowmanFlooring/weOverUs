@@ -71,3 +71,7 @@ node_modules/
 # MongoDB connection string file #
 ##################################
 mongodb.js
+
+# My 'Private' Directory #
+##########################
+private/*
